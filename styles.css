@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Press+Start+2P&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-image: url(image4.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.form-container {
+    border-radius: 15px;
+    color: #FFFF;
+    background-color: rgba(102, 51, 153, 0.852);
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textbox {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #FFFF;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    width: 400px;
+    background-color: rgb(73, 43, 102);
+}
+
+.remember-field {
+    padding: 10px;
+    margin-left: 25%;
+}
+
+.button-field {
+    align-items: center;
+    margin-left: 35%;
+}
+
+.button-field .login-button {
+    font-family: 'Press Start 2P', cursive;
+    color: #FFFF;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 9px 15px 9px 15px;
+    border: #FFFF solid;
+    transition: 0.4s ease;
+    background-color: rgb(103, 45, 161);
+    margin: 10px;
+}
+
+.button-field .login-button:hover {
+    background-color: rgb(216, 216, 65);
+    border: black solid;
+    color: black;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+a:hover {
+    text-decoration: underline
+}
